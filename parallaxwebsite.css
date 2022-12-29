@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    transition: all 0.9s linear ease-in-out;
+}
+
+html{
+   min-height: 100vh;
+   font-size: 16px;
+   overflow-x: hidden;
+}
+body{
+    height: auto;
+}
+
+.px-imgcontent-1,.px-imgcontent-2,.px-imgcontent-3{
+    opacity: 0.8;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.px-imgcontent-1{
+    background-image: url("./assets/pr1img.webp");
+    min-height: 650px;
+}
+.px-imgcontent-2{
+    background-image: url("./assets/17629350_Scene-6.jpg");
+    min-height: 650px;
+}
+.px-imgcontent-3{
+    background-image: url("./assets/tree-with-lamp-lighting.jpg");
+    min-height: 650px;
+}
+
+.plx-cont{
+    text-align: center;
+    padding: 2rem 9%;
+}
+
+.plx-bg{
+    background-color:#264653;
+    color: #fff;
+}
+
+.plx-light{
+    background-color: #002147;
+    color: #fe5a1d;
+
+}
+
+.plx-darkk{
+    background-color: #9bddff;
+    color: #333;
+}
+
+.px-content{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.px-content .px-title{
+    background-color:#000;
+    padding: 0.9rem 1rem;
+    border-radius: 1rem;
+}
